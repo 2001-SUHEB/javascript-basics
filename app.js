@@ -32,24 +32,35 @@
 
 //composite data type--(map)
 
-const person={
-    name:{
-        firstname:"syed",
-        middlename:"sha",
-        lastname:"suheb"
-    },
-    age:22,
-    city:"Vellore"
+ 
+// const person={
+//     name:{
+//         firstname:"syed",
+//         middlename:"sha",
+//         lastname:"suheb"
+//     },
+//     age:22,
+//     city:"Vellore"
 
-}
-console.log(person)
+// }
+// console.log(person)
 
-const student={
-    name:"syed sha suheb",
-    age:22,
-    courses:[{coursname:"DSA",coursecredits:3},{coursname:"web dev",coursecredits:4}]
-}
-console.log(student)
-console.log(student.courses)
-console.log(student.courses[0])
-console.log(student.courses[1].coursname)
+// const student={
+//     name:"syed sha suheb",
+//     age:22,
+//     courses:[{coursname:"DSA",coursecredits:3},{coursname:"web dev",coursecredits:4}]
+// }
+// console.log(student)
+// console.log(student.courses)
+// console.log(student.courses[0])
+// console.log(student.courses[1].coursname)
+
+//--------------template strings------------------------
+
+let mynamenew="suheb"
+
+mynamenew="rinci"
+
+console.log(`hello ${mynamenew}`)
+
+ 
