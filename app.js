@@ -65,6 +65,22 @@
 
 //---------prompt and alert--------------------------------
 
-const studentname=prompt("Enter your name: ")
-alert(`hello ${studentname}`)
+// const studentname=prompt("Enter your name: ")
+// alert(`hello ${studentname}`)
+
+//-----------------Operators-------------
+
+let a=7
+let b=3
+
+console.log(a+b)
+console.log(a-b)
+console.log(a*b)
+console.log(a/b)
+console.log(a%b)
+
+a++
+console.log(a)
+b--
+console.log(b)
  
