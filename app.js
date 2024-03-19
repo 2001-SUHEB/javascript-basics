@@ -95,21 +95,28 @@
 
 //----------conditionals-------------------
 
-let weather="Sunny"
-let subCondition="Too Hot"
+// let weather="Sunny"
+// let subCondition="Too Hot"
 
-if(weather==="Cloudy"){
-    console.log("Take the umbrella")
-}else if(weather==="Rainy"){
-    console.log("Use the umbrella")
-}
-else if(weather==="Sunny"){
-    if(subCondition==="Too hot"){
-        console.log("Use the umbrella")
-    }
-    else{
-        console.log("Don't use the umbrella")
-    }
-}else{
-    console.log("Don't take the umbrella")
-}
+// if(weather==="Cloudy"){
+//     console.log("Take the umbrella")
+// }else if(weather==="Rainy"){
+//     console.log("Use the umbrella")
+// }
+// else if(weather==="Sunny"){
+//     if(subCondition==="Too hot"){
+//         console.log("Use the umbrella")
+//     }
+//     else{
+//         console.log("Don't use the umbrella")
+//     }
+// }else{
+//     console.log("Don't take the umbrella")
+// }
+
+
+//--------ternary Operator----------------------------
+
+let result=9>5
+
+result?console.log("Result is true"):console.log("Result is false")
