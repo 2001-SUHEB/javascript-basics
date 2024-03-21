@@ -117,6 +117,17 @@
 
 //--------ternary Operator----------------------------
 
-let result=9>5
+// let result=9>5
 
-result?console.log("Result is true"):console.log("Result is false")
+// result?console.log("Result is true"):console.log("Result is false")
+
+let age=prompt("Enter your age");
+
+if(age>60){
+    console.log("Senior Citizen");
+}
+else if(age<18){
+    console.log("Minor");
+}else{
+    console.log("Adult");
+}
