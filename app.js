@@ -171,3 +171,12 @@
 // for(let i=0;i<arr.length;i++){
 //     console.log(arr[i])
 // }
+
+//---while loop and rand function
+
+let rand=Math.random()
+
+while(rand>0.5){
+    console.log("greater than 0.5");
+    rand=Math.random();
+}
