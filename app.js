@@ -151,15 +151,23 @@
 
 //--------logical operators--------------
 
-let a1=0;
-let a2="";
-if(a1||a2){
-    console.log("hi")
-}
+// let a1=0;
+// let a2="";
+// if(a1||a2){
+//     console.log("hi")
+// }
 
-let b1=56;
-let b2=89;;
+// let b1=56;
+// let b2=89;;
 
-if(b1&&b2){
-    console.log("hello")
-}
+// if(b1&&b2){
+//     console.log("hello")
+// }
+
+//--------------for loop---------------
+
+// let arr=[22,56,76,89,90]
+
+// for(let i=0;i<arr.length;i++){
+//     console.log(arr[i])
+// }
