@@ -121,13 +121,30 @@
 
 // result?console.log("Result is true"):console.log("Result is false")
 
-let age=prompt("Enter your age");
+// let age=prompt("Enter your age");
 
-if(age>60){
-    console.log("Senior Citizen");
-}
-else if(age<18){
-    console.log("Minor");
+// if(age>60){
+//     console.log("Senior Citizen");
+// }
+// else if(age<18){
+//     console.log("Minor");
+// }else{
+//     console.log("Adult");
+// }
+
+//-------------------false values------------------
+
+// false--bool false
+// 0----number 0
+// null---null
+// undefined
+// NaN--not a number
+// ""---empty string
+
+let a;
+
+if(a){
+    console.log("bool is true")
 }else{
-    console.log("Adult");
+        console.log("bool is false")
 }
