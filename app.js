@@ -141,10 +141,25 @@
 // NaN--not a number
 // ""---empty string
 
-let a;
+// let a;
 
-if(a){
-    console.log("bool is true")
-}else{
-        console.log("bool is false")
+// if(a){
+//     console.log("bool is true")
+// }else{
+//         console.log("bool is false")
+// }
+
+//--------logical operators--------------
+
+let a1=0;
+let a2="";
+if(a1||a2){
+    console.log("hi")
+}
+
+let b1=56;
+let b2=89;;
+
+if(b1&&b2){
+    console.log("hello")
 }
