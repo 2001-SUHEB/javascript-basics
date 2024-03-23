@@ -205,7 +205,7 @@
 // function  greet(name)
 //  {
 //     console.log(`hello ${name}`)
-    
+
 // }
 
 // greet("syed")
@@ -221,18 +221,36 @@
 // const greet2=function  greet(name)
 // {
 //    console.log(`hello ${name}`)
-   
+
 // }
 
 // greet2("akram")
 
 //-----------------return statement in a function--------------
 
-const fun=(element)=>{
-    return `hi hello ${element}, you are returned`
-}
+// const fun=(element)=>{
+//     return `hi hello ${element}, you are returned`
+// }
 
-let result=fun("suheb")
-console.log(result)
+// let result=fun("suheb")
+// console.log(result)
 
+//--------task for functions--arrow functions
+//task-1
+// let len = () => {
+//     let user = prompt("Enter your name")
+//     console.log(user.length)
 
+// }
+ 
+// len()
+
+//task-2
+
+// let add=(a,b)=>{
+//     return a+b
+// }
+
+// let ans=add(5,6)
+
+// console.log(ans)
