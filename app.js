@@ -174,9 +174,16 @@
 
 //---while loop and rand function
 
-let rand=Math.random()
+// let rand=Math.random()
 
-while(rand>0.5){
-    console.log("greater than 0.5");
-    rand=Math.random();
+// while(rand>0.5){
+//     console.log("greater than 0.5");
+//     rand=Math.random();
+// }
+
+let itr=1;
+
+while(itr!=6){
+    console.log(itr);
+    itr++;
 }
