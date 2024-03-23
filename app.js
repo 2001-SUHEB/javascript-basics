@@ -236,7 +236,7 @@
 // console.log(result)
 
 //--------task for functions--arrow functions
-//task-1
+//task-1================>
 // let len = () => {
 //     let user = prompt("Enter your name")
 //     console.log(user.length)
@@ -245,7 +245,7 @@
  
 // len()
 
-//task-2
+//task-2=================>
 
 // let add=(a,b)=>{
 //     return a+b
@@ -254,3 +254,59 @@
 // let ans=add(5,6)
 
 // console.log(ans)
+
+//-------------------------call back function------------------------------
+
+// const message=(status,callback)=>{
+//     if(status=="unplaced"){
+//         callback()
+//     }else{
+//         console.log("Congratulations")
+//     }
+// }
+
+// const course=()=>{
+//     console.log("Complete DSA Topics to get placed")
+// }
+
+// message("placed",course);
+// message("unplaced",course);
+
+
+//-----------call back functions task---------------------------
+
+// const isAgeOdd=(age,callback)=>{
+//     if(age%2!=0){
+//             callback(age)
+//     }else{
+//         console.log("your age is even")
+//     }
+// }
+
+// const printAge=(age)=>{
+//     console.log(`you odd age is ${age}`)
+// }
+
+// isAgeOdd(10,printAge)
+// isAgeOdd(13,printAge)
+
+//--------------------------------assignments------------------------------
+//Temperature conversion=================>
+
+// const temp=(c)=>{
+//     return ((c*(9/5))+32)
+
+// }
+// let f=temp(1)
+// console.log(f)
+
+//ODD-EVEN-CHECKER========================>
+
+// const oeCheck=(num)=>{
+//     return num%2==0
+// }
+
+//  console.log(oeCheck(10))
+//  console.log(oeCheck(11))
+
+ //-----------------------------------------------------------------------------------------------------
