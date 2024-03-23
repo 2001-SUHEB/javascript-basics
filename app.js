@@ -1,4 +1,4 @@
- 
+
 //-------------------basics-------------------------
 // const myname="suheb"
 
@@ -32,7 +32,7 @@
 
 //-----------------composite data type--(map)--------------------
 
- 
+
 // const person={
 //     name:{
 //         firstname:"syed",
@@ -181,9 +181,21 @@
 //     rand=Math.random();
 // }
 
-let itr=1;
+// let itr=1;
 
-while(itr!=6){
-    console.log(itr);
-    itr++;
+// while(itr!=6){
+//     console.log(itr);
+//     itr++;
+// }
+
+//-----task=>use  for loop to calculate factorial of a number
+
+let a = parseInt(prompt("enter a number"));
+
+let fac = 1;
+for (let index = 2; index <= a; index++) {
+    fac = fac * index;
+
 }
+
+console.log(fac)
