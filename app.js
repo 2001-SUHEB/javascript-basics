@@ -190,12 +190,39 @@
 
 //-----task=>use  for loop to calculate factorial of a number
 
-let a = parseInt(prompt("enter a number"));
+// let a = parseInt(prompt("enter a number"));
 
-let fac = 1;
-for (let index = 2; index <= a; index++) {
-    fac = fac * index;
+// let fac = 1;
+// for (let index = 2; index <= a; index++) {
+//     fac = fac * index;
 
-}
+// }
 
-console.log(fac)
+// console.log(fac)
+
+//-----types of function----------------
+
+// function  greet(name)
+//  {
+//     console.log(`hello ${name}`)
+    
+// }
+
+// greet("syed")
+
+// //=========>arrow function
+
+// const namaste=(name)=>{
+//     console.log(`namaste ${name}`)
+// }
+
+// namaste("bhau")
+
+// const greet2=function  greet(name)
+// {
+//    console.log(`hello ${name}`)
+   
+// }
+
+// greet2("akram")
+
