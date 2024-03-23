@@ -226,3 +226,13 @@
 
 // greet2("akram")
 
+//-----------------return statement in a function--------------
+
+const fun=(element)=>{
+    return `hi hello ${element}, you are returned`
+}
+
+let result=fun("suheb")
+console.log(result)
+
+
