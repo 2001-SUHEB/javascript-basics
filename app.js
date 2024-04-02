@@ -284,14 +284,14 @@
 // }
 
 // const printAge=(age)=>{
-//     console.log(`you odd age is ${age}`)
+//     console.log(`your odd age is ${age}`)
 // }
 
 // isAgeOdd(10,printAge)
 // isAgeOdd(13,printAge)
 
 //--------------------------------assignments------------------------------
-//Temperature conversion=================>
+// Temperature conversion=================>
 
 // const temp=(c)=>{
 //     return ((c*(9/5))+32)
@@ -300,7 +300,7 @@
 // let f=temp(1)
 // console.log(f)
 
-//ODD-EVEN-CHECKER========================>
+// ODD-EVEN-CHECKER========================>
 
 // const oeCheck=(num)=>{
 //     return num%2==0
@@ -310,3 +310,16 @@
 //  console.log(oeCheck(11))
 
  //-----------------------------------------------------------------------------------------------------
+
+// // factorial calculator
+
+// const fac=(n)=>{
+// let ans=1;
+//     for (let  i = 2;  i <=n;  i++) {
+//          ans*=i
+        
+//     }
+//     console.log(ans);
+// }
+
+// fac(5)
